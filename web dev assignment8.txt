@@ -1,0 +1,15 @@
+Q.1  Whats React and its pros and cons?
+Answer: React is a javascript library for bulding user interfaces and that is vary is to learn
+Q.2 What do you understand by Virtual Dom?
+Answer: the virtual DOM is a conceptual representation of the actual DOM object, like a lightweight copy in react and virtual DOM object has the same properties as a real DOM object
+Q.3 Difference between Virtual Dom vs Real Dom
+Answer: There is too much memory wastage in Real DOM, while there is no memory wastage in Virtual DOM.Real DOM updates slow, while Virtual DOM updates fast
+Q.4 Whats component? Types of component
+Answer: component is a reusable piece of code that describes the appearance and behavior of an element on a web page in React and There are two types of components in React:1.Functional components
+2.Class components
+Q.5 Difference between class & function based component
+Answer: A functional component is just a plain JavaScript function which accepts props as an argument and returns a React element and A class component requires you to extend from React.Component and create a render function which returns a React element
+Q.6 Explain react component life cycle 
+Answer: each component has a lifecycle which you can monitor and manipulate during its three main phases: Mounting, Updating, and Unmounting in React .The three phases of a component’s lifecycle are:1. Mounting 2. Updating 3. Unmounting
+Q.7 Explain Prop Drilling in React & Ways to avoid it
+Answer: Prop drilling is a problem that occurs when you have to pass props through multiple levels of components that don’t need them and This can make your code more complex and harder to maintain To avoid prop drilling, you can use: 1.React context API 2.Composition 3.Render props
